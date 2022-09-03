@@ -22,6 +22,7 @@ api_key = 'WKsYz7mFBHEDsI7xsZ9KJP3WPMm5txIjKmU0eBTK'
 co = cohere.Client(api_key)
 title = 'Some title needs to be inputted here'
 
+@st.cache
 def get_dataset(df, text, title):
   df.rename(columns={text: 'text', title: 'title'}, inplace=True)
   df = df[['title', 'text']]
@@ -29,6 +30,7 @@ def get_dataset(df, text, title):
   df = df.head(max_length)
   return df
 
+@st.cache
 def get_keywords(df, n_clusters=8, chart_title='This is the title'):
   def get_embeddings(df):
     embeds = co.embed(texts=list(df['text']),
