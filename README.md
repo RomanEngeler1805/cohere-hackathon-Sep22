@@ -1,1 +1,1 @@
-# cohere-hackathon-Sep22
+cohere embedding hackathon
