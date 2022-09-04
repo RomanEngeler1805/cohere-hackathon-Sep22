@@ -12,6 +12,4 @@ You can upload any csv file. You then have 3 options:
 - **Cluster:** Do some cluster analysis, with keywords generated from the body of the text and using the titles.
 - **Search:** Query the data and retrieve the closest match.
 
-A product prototype developed by:
-- Jonathan Fernandes
-- Roman Engeler
+A product prototype developed by Jonathan Fernandes & Roman Engeler
