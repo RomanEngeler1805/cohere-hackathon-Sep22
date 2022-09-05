@@ -1,0 +1,7 @@
+datasets
+cohere
+altair
+umap
+sklearn
+annoy
+bertopic
