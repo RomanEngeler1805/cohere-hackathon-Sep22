@@ -1,5 +1,5 @@
 # Cohere AI Hackathon #2
-Link to website: [lablab.ai](https://lablab.ai/event/cohere-ai-hackathon-embed)
+Link to hackathon website: [lablab.ai](https://lablab.ai/event/cohere-ai-hackathon-embed)
 
 ## Instructions
 =======
@@ -14,4 +14,10 @@ You can upload any csv file. You then have 3 options:
 - **Cluster:** Do some cluster analysis, with keywords generated from the body of the text and using the titles.
 - **Search:** Query the data and retrieve the closest match.
 
-A product prototype developed by Jonathan Fernandes & Roman Engeler
+## Files
+- **Cohere_Embed_Analyse** script to explore the solution directly in Google Colab
+- **Cohere_Embed_Analyse_Streamlit** script to run a Streamlit application from Google Colab
+- **helper.py**, **app.py**, **semantic_search.py** python scripts to run Streamlit application locally
+- **amazon_reviews.csv** provided data file to get started with the streamlit app
+
+A product prototype developed by **Jonathan Fernandes** & **Roman Engeler**
