@@ -12,6 +12,7 @@ Introducing ...
 You can upload any csv file. You then have 3 options:
 - **EDA:** Get an overview of the file and get some general exploratory data analysis.
 - **Cluster:** Do some cluster analysis, with keywords generated from the body of the text and using the titles.
+![Clustering](https://github.com/RomanEngeler1805/cohere-hackathon-Sep22/blob/main/imgs/Clustering.png?raw=true)
 - **Search:** Query the data and retrieve the closest match.
 
 ## Files
