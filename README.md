@@ -14,6 +14,7 @@ You can upload any csv file. You then have 3 options:
 - **Cluster:** Do some cluster analysis, with keywords generated from the body of the text and using the titles.
 ![Clustering](https://github.com/RomanEngeler1805/cohere-hackathon-Sep22/blob/main/imgs/Clustering.png?raw=true)
 - **Search:** Query the data and retrieve the closest match.
+![Semantic Search](https://github.com/RomanEngeler1805/cohere-hackathon-Sep22/blob/main/imgs/SemanticSearch.png?raw=true)
 
 ## Files
 - **Cohere_Embed_Analyse** script to explore the solution directly in Google Colab
